@@ -29,7 +29,7 @@ const userSchema = new mongoose.Schema(
       default: null, // URL to avatar image
     },
     avatarColor: {
-      // Fallback color for initials avatar
+      
       type: String,
       default: function () {
         const colors = [
@@ -41,14 +41,13 @@ const userSchema = new mongoose.Schema(
     },
     isVerified: {
       type: Boolean,
-      default: true, // simplified — no email verification flow for Week 1
+      default: true, 
     },
     lastActive: {
       type: Date,
       default: Date.now,
     },
-    // Cached system role — source of truth is the Role model.
-    // Updated whenever Role.promoteToAdmin / Role.revoke is called.
+
     systemRole: {
       type: String,
       enum: ["user", "moderator", "admin", "superadmin"],
