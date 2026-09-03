@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 /**
  * useDebounce — delays updating a value until after a specified delay.
- * Useful for search inputs, API calls, etc.
+ * Useful for search inputs, API calls etc.
  *
  * @param {any}    value  - The value to debounce
  * @param {number} delay  - Delay in milliseconds (default: 350)
