@@ -6,8 +6,8 @@ const { successResponse, errorResponse } = require("../utils/response");
 
 /**
  * GET /api/search
- * Query params:
- *   q           - search term (required, min 2 chars)
+ * Query paramss:
+ *   q           - search term (required, minimum 2 chars)
  *   workspaceId - restrict to a specific workspace (optional)
  *   type        - "all" | "boards" | "cards" (default: "all")
  *   limit       - max results per category (default: 20)

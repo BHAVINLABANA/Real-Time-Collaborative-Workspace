@@ -5,7 +5,7 @@ const { sendAuthResponse } = require("../utils/jwt");
 const { successResponse, errorResponse } = require("../utils/response");
 const sendEmail = require("../utils/email");
 
-// ─── Validation chain ────────────────────────────────────────────────────────
+// ─── Validation chain ────────────────────────────────────────────────
 
 exports.registerValidation = [
   body("name")
