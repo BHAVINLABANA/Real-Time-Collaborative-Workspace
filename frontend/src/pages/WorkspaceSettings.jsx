@@ -135,7 +135,7 @@ const WorkspaceSettings = () => {
         </div>
       </div>
 
-      {/* General settings */}
+      {/* General settings  */}
       <Section title="General">
         <form onSubmit={handleSave} className="space-y-5">
           {saveError && (

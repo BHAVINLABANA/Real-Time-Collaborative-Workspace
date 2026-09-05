@@ -64,7 +64,7 @@ const CreateWorkspaceModal = ({ onClose }) => {
             </div>
           </div>
 
-          {/* Name */}
+          {/* Name  */}
           <div>
             <label className="block text-sm font-medium text-slate-300 mb-1.5">Name</label>
             <input

@@ -124,7 +124,7 @@ workspaceSchema.pre("save", async function (next) {
   next();
 });
 
-// Ensure owner is always in members
+// Ensure owner is always in members.
 workspaceSchema.pre("save", function (next) {
   if (this.isNew) {
     const alreadyMember = this.members.some(

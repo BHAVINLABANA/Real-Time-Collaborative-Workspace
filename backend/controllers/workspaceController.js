@@ -5,7 +5,7 @@ const Board = require("../models/Board");
 const Card = require("../models/Card");
 const { successResponse, errorResponse } = require("../utils/response");
 
-// ─── Validation chains ────────────────────────────────────────────────────────
+// ─── Validation chains ───────────────────────────────────────────────────────
 
 exports.createWorkspaceValidation = [
   body("name")
