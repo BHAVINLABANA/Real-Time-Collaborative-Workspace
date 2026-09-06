@@ -126,7 +126,7 @@ const cardSchema = new mongoose.Schema(
         ref: "User",
       },
     ],
-    // Activity log for the card (lightweight, for Week 3+)
+    // Activity log for the card (lightweight , for Week 3+)
     activityLog: [
       {
         action: { type: String }, // e.g. "moved", "assigned", "updated"

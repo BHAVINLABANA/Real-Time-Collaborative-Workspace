@@ -45,7 +45,7 @@ const listSchema = new mongoose.Schema(
       default: false,
     },
     wipLimit: {
-      // Work-In-Progress limit for Kanban discipline
+      // Work-In-Progress limit for  Kanban discipline
       type: Number,
       default: null,
     },

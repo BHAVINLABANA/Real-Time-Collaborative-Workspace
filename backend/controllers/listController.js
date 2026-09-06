@@ -5,10 +5,10 @@ const Board = require("../models/Board");
 const { successResponse, errorResponse } = require("../utils/response");
 const { delCache } = require("../config/redis");
 
-/** Invalidate the board-level Redis cache key */
+/** Invalidate the board-level Redis cache key  */
 const invalidateBoardCache = async (boardId) => delCache(`board:${boardId}`);
 
-// ─── Validation ───────────────────────────────────────────────────────────────
+// ─── Validation ─────────────────────────────────────────────────────────────
 
 exports.createListValidation = [
   body("title")

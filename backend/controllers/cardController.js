@@ -6,7 +6,7 @@ const Notification = require("../models/Notification");
 const { successResponse, errorResponse } = require("../utils/response");
 const { delCache } = require("../config/redis");
 
-// ─── Validation ───────────────────────────────────────────────────────────────
+// ─── Validation ──────────────────────────────────────────────────────────────
 
 exports.createCardValidation = [
   body("title")
