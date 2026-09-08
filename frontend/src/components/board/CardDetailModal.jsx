@@ -6,7 +6,7 @@ import {
 import { useSocket } from "../../context/SocketContext";
 import TypingIndicator from "./TypingIndicator";
 
-// ─── Helpers ──────────────────────────────────────────────────────────────────
+// ─── Helpers ─────────────────────────────────────────────────────────────────
 const PRIORITY_OPTIONS = [
   { value: "none",     label: "None",     color: "var(--text-muted)" },
   { value: "low",      label: "Low",      color: "#22d3ee" },
