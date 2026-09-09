@@ -17,7 +17,7 @@ const PRIORITY_COLORS = {
   none: { fill: "#64748b", textVar: "var(--text-tertiary)", bgAlpha: "rgba(100,116,139,0.10)", borderAlpha: "rgba(100,116,139,0.20)" }
 };
 
-// Avatar Component
+// Avatar Components
 const MemberAvatar = ({ name, avatar, color }) => {
   const initials = name
     ? name.split(" ").map((n) => n[0]).slice(0, 2).join("").toUpperCase()

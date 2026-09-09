@@ -12,7 +12,7 @@ export const WorkspaceProvider = ({ children }) => {
     try {
       const { data } = await api.get("/workspaces");
       setWorkspaces(data.workspaces);
-      // Auto-select first workspace if none active
+      // Auto-select first workspace if none actiive
       if (!activeWorkspace && data.workspaces.length > 0) {
         setActiveWorkspace(data.workspaces[0]);
       }
