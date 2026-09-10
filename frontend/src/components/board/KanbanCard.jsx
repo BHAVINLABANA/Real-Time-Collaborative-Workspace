@@ -2,7 +2,7 @@ import React, { memo } from "react";
 import { Draggable } from "@hello-pangea/dnd";
 import { Calendar, CheckSquare, MessageSquare, Paperclip } from "lucide-react";
 
-// ─── Helpers ──────────────────────────────────────────────────────────────────
+// ─── Helpers ─────────────────────────────────────────────────────────────────
 
 const getPriorityClass = (priority) => {
   const map = {
