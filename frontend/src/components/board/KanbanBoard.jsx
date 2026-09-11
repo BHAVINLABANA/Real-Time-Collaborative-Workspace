@@ -6,7 +6,7 @@ import AddListForm from "./AddListForm";
 import CardDetailModal from "./CardDetailModal";
 import api from "../../utils/api";
 
-// ─── Board canvas ────────────────────────────────────────────────────────────
+// ─── Board canvas ───────────────────────────────────────────────────────────
 
 const KanbanBoard = ({ boardId, board, currentUser, typingUsers = [], emitTyping }) => {
   const {
