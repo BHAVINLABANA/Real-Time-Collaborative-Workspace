@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 /**
- * Role — system-level access document.
+ * Role — system-level access document,
  *
  * Each user can have one Role document that grants platform-wide
  * privileges beyond the workspace/board-level roles that already
